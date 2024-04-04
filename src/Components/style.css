@@ -1,0 +1,79 @@
+
+
+a{
+    text-decoration: none;
+}
+
+#btn{
+    margin: 1rem;
+}
+
+#log{
+    padding-bottom: 8.2rem;
+    background-color: linear-gradient(
+        to right,#EEEEEE,#EEEEEE
+    );
+}
+
+img{
+   text-align: center;
+    width: 12rem;
+    height: 10rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.logo2{
+    background-image: url(logo.png);
+}
+
+/* Adjust navbar height */
+.navbar {
+    min-height: 80px;
+  }
+  /* Center the logo vertically */
+  .navbar-brand img {
+    width: 7rem;
+    height: 5rem;
+    margin-top: 10px;
+  }
+  /* Center the logout button vertically */
+  .navbar .navbar-nav .nav-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+ 
+  }
+
+
+  .sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    height: 100vh; /* Full height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    left: 0;
+    top: 5rem;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  /* Adjust main content padding to avoid overlapping with navbar and sidebar */
+  .content {
+    
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 20px;
+  }
+
+  .navbar{
+    background-color: rgb(146, 27, 146);
+  }
+
+ .vec{
+  background-image: url(vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-image: none;
+  
+ }

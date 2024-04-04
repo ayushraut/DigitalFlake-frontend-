@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "7117",
+      "fname": "Ayush",
+      "lname": "Raut",
+      "email": "aau@gmail.com",
+      "password": "123456",
+      "cpassword": "123456"
+    }
+  ]
+}
